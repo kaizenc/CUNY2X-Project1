@@ -1,18 +1,6 @@
 $(document)
     .ready(function() {
       // fix menu when passed
-    $('img')
-        .visibility({
-            once: true,
-            onBottomPassed: function() {
-                $('.fixed.menu').transition('fade in');
-            },
-            onBottomPassedReverse: function() {
-                $('.fixed.menu').transition('fade out');
-            }
-        })
-    ;
-
       $('.masthead')
         .visibility({
           once: false,
