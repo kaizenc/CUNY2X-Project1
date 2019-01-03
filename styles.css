@@ -1,5 +1,10 @@
+.boxShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
 body { background-color: black; height: 100%; }
-h3 { color: white; }
+/* h3 { color: white; } */
 #nav-toggle { position: absolute; left: 50%; top: 50%; }
 
 #nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
