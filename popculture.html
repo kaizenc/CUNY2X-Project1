@@ -9,37 +9,9 @@
   <!-- Site Properties -->
   <title>Asian Representation - Pop Culture</title>
   <link rel="stylesheet" type="text/css" href="scripts/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/footer.css">
 
   <style type="text/css">
-    .top-of-dom{
-      z-index: 30;
-      background-color: #1B1C1C;
-    }
-
-    .wipe-hover {
-     overflow: hidden;
-     position: relative;
-     transition: 0.25s all ease-in-out;
-    }
-    .wipe-hover::after {
-     clip-path: polygon(0 0, 95% 0, 100% 100%, 5% 100%);
-     transition: all 0.25s linear;
-     content: "";
-     position: absolute;
-     width: 100%;
-     top: 0;
-     bottom: 0;
-     z-index: 2;
-     background-color: rgb(141, 218, 253);
-     transform: translateX(-225%);
-    }
-    .wipe-hover:hover {
-     text-decoration: none;
-    }
-    .wipe-hover:hover::after {
-     transform: translateX(200%);
-    }
-
     .hidden.menu {
       display: none;
     }
@@ -224,10 +196,10 @@
     <div class="ui container">
       <div class="ui stackable inverted divided equal height stackable grid">
         <div class="four wide column top-of-dom"></div>
-        <div class="four wide column">
+        <div class="three wide column">
           <h4 class="ui inverted header">Designed with ❤️ by:</h4>
           <div class="ui inverted list">
-
+            <img src="images/github.png"></img><br>
             <span><a class="inline-block wipe-hover" href="https://github.com/AceroM">github.com/AceroM</a></span>
             <span><a class="inline-block wipe-hover" href="https://github.com/LeoAuyeung">github.com/LeoAuyeung</a></span>
             <span><a class="inline-block wipe-hover" href="https://github.com/kaizenc">github.com/kaizenc</a></span>
