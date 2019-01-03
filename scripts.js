@@ -1,5 +1,6 @@
 $(document)
     .ready(function() {
+
       // fix menu when passed
       $('.masthead')
         .visibility({
@@ -18,5 +19,9 @@ $(document)
         .sidebar('attach events', '.toc.item')
       ;
 
+      document.querySelector( "#nav-toggle" )
+      .addEventListener( "click", function() {
+        this.classList.toggle( "active" );
+      });
 })
 ;
